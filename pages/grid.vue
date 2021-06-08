@@ -1,7 +1,11 @@
 <template>
     <div class="grid-container">
-        <div class="grid-item grid-item-1"></div>
-        <div class="grid-item grid-item-2"></div>
+        <div class="grid-item grid-item-1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, officiis! Corrupti, molestiae? Dignissimos suscipit alias nemo id voluptates earum in optio repellendus. Laboriosam sit molestias, iusto placeat aliquam error illum blanditiis quod voluptate, nam, minus sunt. Saepe in repellat veniam quo eligendi officiis eveniet vel, quasi dolor voluptatum illo numquam.
+        </div>
+        <div class="grid-item grid-item-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore minus labore atque tempore. Reiciendis dolores quibusdam asperiores cupiditate autem possimus incidunt necessitatibus maxime velit iusto!
+        </div>
         <div class="grid-item grid-item-3"></div>
     </div>
 </template> 
@@ -11,7 +15,11 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: 200px 100px 200px;
+    grid-template-columns: 200px 250px;
+    // grid-template-columns: 2fr 1fr;
+    // grid-template-columns: repeat(4, 100px);
+    grid-auto-rows: minmax(150px auto);
+    // grid-template-rows: 200px 150px;
 }
 
 
