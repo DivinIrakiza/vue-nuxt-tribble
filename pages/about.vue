@@ -13,3 +13,15 @@
         </div>
     </div>
 </template>
+
+<script lang="ts">
+//    import '@/assets/styles/scss/main.scss';
+</script>
+
+// <style lang="scss" scoped>
+//     $color: red;
+
+//     header {
+//         background: $color;
+//     }
+// </style>

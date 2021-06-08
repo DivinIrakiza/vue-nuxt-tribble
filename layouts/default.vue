@@ -1,14 +1,9 @@
 <template>
   <div>
-    <Nav />
     <nuxt />
   </div>
 </template>
-<script>
-import Nav from "@/components/reusable/Navbar.vue"
+<script lang="ts">
 export default {
-  components: {
-    Nav
-  }
 };
 </script>
